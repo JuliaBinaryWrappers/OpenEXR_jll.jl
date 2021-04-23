@@ -1,6 +1,6 @@
 name = "OpenEXR_jll"
 uuid = "18a262bb-aa17-5467-a713-aee519bc75cb"
-version = "3.0.1+0"
+version = "3.0.1+1"
 
 [deps]
 JLLWrappers = "692b3bcd-3c85-4b1f-b108-f13ce0eb3210"
