@@ -4,11 +4,11 @@ export libIex, libIlmThread, libOpenEXR, libOpenEXRCore, libOpenEXRUtil
 using Imath_jll
 using Zlib_jll
 JLLWrappers.@generate_wrapper_header("OpenEXR")
-JLLWrappers.@declare_library_product(libIex, "libIex-3_1.so.30")
-JLLWrappers.@declare_library_product(libIlmThread, "libIlmThread-3_1.so.30")
-JLLWrappers.@declare_library_product(libOpenEXR, "libOpenEXR-3_1.so.30")
-JLLWrappers.@declare_library_product(libOpenEXRCore, "libOpenEXRCore-3_1.so.30")
-JLLWrappers.@declare_library_product(libOpenEXRUtil, "libOpenEXRUtil-3_1.so.30")
+JLLWrappers.@declare_library_product(libIex, "libIex-3_1.so.29")
+JLLWrappers.@declare_library_product(libIlmThread, "libIlmThread-3_1.so.29")
+JLLWrappers.@declare_library_product(libOpenEXR, "libOpenEXR-3_1.so.29")
+JLLWrappers.@declare_library_product(libOpenEXRCore, "libOpenEXRCore-3_1.so.29")
+JLLWrappers.@declare_library_product(libOpenEXRUtil, "libOpenEXRUtil-3_1.so.29")
 function __init__()
     JLLWrappers.@generate_init_header(Imath_jll, Zlib_jll)
     JLLWrappers.@init_library_product(
