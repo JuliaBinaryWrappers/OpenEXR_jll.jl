@@ -4,40 +4,40 @@ export libIex, libIlmThread, libOpenEXR, libOpenEXRCore, libOpenEXRUtil
 using Imath_jll
 using Zlib_jll
 JLLWrappers.@generate_wrapper_header("OpenEXR")
-JLLWrappers.@declare_library_product(libIex, "@rpath/libIex-3_2.31.dylib")
-JLLWrappers.@declare_library_product(libIlmThread, "@rpath/libIlmThread-3_2.31.dylib")
-JLLWrappers.@declare_library_product(libOpenEXR, "@rpath/libOpenEXR-3_2.31.dylib")
-JLLWrappers.@declare_library_product(libOpenEXRCore, "@rpath/libOpenEXRCore-3_2.31.dylib")
-JLLWrappers.@declare_library_product(libOpenEXRUtil, "@rpath/libOpenEXRUtil-3_2.31.dylib")
+JLLWrappers.@declare_library_product(libIex, "@rpath/libIex-3_4.33.dylib")
+JLLWrappers.@declare_library_product(libIlmThread, "@rpath/libIlmThread-3_4.33.dylib")
+JLLWrappers.@declare_library_product(libOpenEXR, "@rpath/libOpenEXR-3_4.33.dylib")
+JLLWrappers.@declare_library_product(libOpenEXRCore, "@rpath/libOpenEXRCore-3_4.33.dylib")
+JLLWrappers.@declare_library_product(libOpenEXRUtil, "@rpath/libOpenEXRUtil-3_4.33.dylib")
 function __init__()
     JLLWrappers.@generate_init_header(Imath_jll, Zlib_jll)
     JLLWrappers.@init_library_product(
         libIex,
-        "lib/libIex-3_2.31.dylib",
+        "lib/libIex-3_4.33.dylib",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
     JLLWrappers.@init_library_product(
         libIlmThread,
-        "lib/libIlmThread-3_2.31.dylib",
+        "lib/libIlmThread-3_4.33.dylib",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
     JLLWrappers.@init_library_product(
         libOpenEXR,
-        "lib/libOpenEXR-3_2.31.dylib",
+        "lib/libOpenEXR-3_4.33.dylib",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
     JLLWrappers.@init_library_product(
         libOpenEXRCore,
-        "lib/libOpenEXRCore-3_2.31.dylib",
+        "lib/libOpenEXRCore-3_4.33.dylib",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
     JLLWrappers.@init_library_product(
         libOpenEXRUtil,
-        "lib/libOpenEXRUtil-3_2.31.dylib",
+        "lib/libOpenEXRUtil-3_4.33.dylib",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 

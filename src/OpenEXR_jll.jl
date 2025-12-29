@@ -5,5 +5,5 @@ using Base: UUID
 import JLLWrappers
 
 JLLWrappers.@generate_main_file_header("OpenEXR")
-JLLWrappers.@generate_main_file("OpenEXR", UUID("18a262bb-aa17-5467-a713-aee519bc75cb"))
+JLLWrappers.@generate_main_file("OpenEXR", Base.UUID("18a262bb-aa17-5467-a713-aee519bc75cb"))
 end  # module OpenEXR_jll
