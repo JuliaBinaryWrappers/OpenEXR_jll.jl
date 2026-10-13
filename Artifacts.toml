@@ -1,174 +1,174 @@
 [[OpenEXR]]
 arch = "aarch64"
-git-tree-sha1 = "9e7e5c8dcc9ddbbae1d178e53f7bb044cadb9a60"
+git-tree-sha1 = "cc77878a90dd51836fd7471281b0c9356905ae30"
 os = "macos"
 
     [[OpenEXR.download]]
-    sha256 = "6b5e3b983c976474b40cce790ad30b2cd61bebb0c4d0b1a996d5bbb3eff524ff"
-    url = "https://github.com/JuliaBinaryWrappers/OpenEXR_jll.jl/releases/download/OpenEXR-v3.4.16+0/OpenEXR.v3.4.16.aarch64-apple-darwin.tar.gz"
+    sha256 = "2457af5124b8dbd5f7ee3701e91536261374ccb3a69ee602751d46d15527524e"
+    url = "https://github.com/JuliaBinaryWrappers/OpenEXR_jll.jl/releases/download/OpenEXR-v3.5.2+0/OpenEXR.v3.5.2.aarch64-apple-darwin.tar.gz"
 [[OpenEXR]]
 arch = "aarch64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "8b45ef8c49f2563fa64f32f707fa9c660105a4af"
+git-tree-sha1 = "99365294934abe526853fc8f8a4e98b13dbf9f5f"
 libc = "glibc"
 os = "linux"
 
     [[OpenEXR.download]]
-    sha256 = "d5812890acad65d6a809c0fd6fbb8e8fa7b042b671e0078175927a0f0a07fd14"
-    url = "https://github.com/JuliaBinaryWrappers/OpenEXR_jll.jl/releases/download/OpenEXR-v3.4.16+0/OpenEXR.v3.4.16.aarch64-linux-gnu-cxx11.tar.gz"
+    sha256 = "95f35f6716d34846fc1488cb1c52a434c160aba2a9727c2ce32b1bee0226801c"
+    url = "https://github.com/JuliaBinaryWrappers/OpenEXR_jll.jl/releases/download/OpenEXR-v3.5.2+0/OpenEXR.v3.5.2.aarch64-linux-gnu-cxx11.tar.gz"
 [[OpenEXR]]
 arch = "aarch64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "081a8d96e5de5af5344f19d389ae763ec8b987be"
+git-tree-sha1 = "3d877f622514f6b54a89fa3e6fef0a1c529eaefa"
 libc = "musl"
 os = "linux"
 
     [[OpenEXR.download]]
-    sha256 = "d555271acc179110b98d57060bac347ed5377c583a120f9847da6ea9d27a6870"
-    url = "https://github.com/JuliaBinaryWrappers/OpenEXR_jll.jl/releases/download/OpenEXR-v3.4.16+0/OpenEXR.v3.4.16.aarch64-linux-musl-cxx11.tar.gz"
+    sha256 = "4556672a006b86acbb28ce31203cfb2a9130717331fc965588a9114154d99783"
+    url = "https://github.com/JuliaBinaryWrappers/OpenEXR_jll.jl/releases/download/OpenEXR-v3.5.2+0/OpenEXR.v3.5.2.aarch64-linux-musl-cxx11.tar.gz"
 [[OpenEXR]]
 arch = "aarch64"
-git-tree-sha1 = "994c8e8f25476410025e2553f419fb87dcea3939"
+git-tree-sha1 = "571053771c913e5d215101ce401cfea744206f39"
 os = "freebsd"
 
     [[OpenEXR.download]]
-    sha256 = "79920620188810e5acbc98da05d65468b93658e117329cab6b2981145eea00c0"
-    url = "https://github.com/JuliaBinaryWrappers/OpenEXR_jll.jl/releases/download/OpenEXR-v3.4.16+0/OpenEXR.v3.4.16.aarch64-unknown-freebsd.tar.gz"
+    sha256 = "ecbb6becd4feca59c42a327eba50ebf8aff1fa8854bb6516d48530b9bb9ff649"
+    url = "https://github.com/JuliaBinaryWrappers/OpenEXR_jll.jl/releases/download/OpenEXR-v3.5.2+0/OpenEXR.v3.5.2.aarch64-unknown-freebsd.tar.gz"
 [[OpenEXR]]
 arch = "armv6l"
 call_abi = "eabihf"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "8322747c42a6e135b4501719c929397d9b03ad3b"
+git-tree-sha1 = "5eb9668ab38ab2db8ddf153492d69ef1f3ede1d3"
 libc = "glibc"
 os = "linux"
 
     [[OpenEXR.download]]
-    sha256 = "ed9b3116f2271afb09ebe7449f781e4716d1861de8a2ddf42bb4f3860eee5b45"
-    url = "https://github.com/JuliaBinaryWrappers/OpenEXR_jll.jl/releases/download/OpenEXR-v3.4.16+0/OpenEXR.v3.4.16.armv6l-linux-gnueabihf-cxx11.tar.gz"
+    sha256 = "81036eb72d4d9f42d969b0994637e12918b3ee2580d77a58446848cf945b36e7"
+    url = "https://github.com/JuliaBinaryWrappers/OpenEXR_jll.jl/releases/download/OpenEXR-v3.5.2+0/OpenEXR.v3.5.2.armv6l-linux-gnueabihf-cxx11.tar.gz"
 [[OpenEXR]]
 arch = "armv6l"
 call_abi = "eabihf"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "1001ee2ee5177ac494948bd97754d397374f0ba1"
+git-tree-sha1 = "008162d66aefe3d9f598837936f43b81cd848bf4"
 libc = "musl"
 os = "linux"
 
     [[OpenEXR.download]]
-    sha256 = "76d034a5341f4992feff391fcccfb9844d468125ae47965b16e96a458f602c00"
-    url = "https://github.com/JuliaBinaryWrappers/OpenEXR_jll.jl/releases/download/OpenEXR-v3.4.16+0/OpenEXR.v3.4.16.armv6l-linux-musleabihf-cxx11.tar.gz"
+    sha256 = "f97b8e5114987910f3ddeea1c3b6cbdf017cbc06fa62321c909ec90d9697293e"
+    url = "https://github.com/JuliaBinaryWrappers/OpenEXR_jll.jl/releases/download/OpenEXR-v3.5.2+0/OpenEXR.v3.5.2.armv6l-linux-musleabihf-cxx11.tar.gz"
 [[OpenEXR]]
 arch = "armv7l"
 call_abi = "eabihf"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "9fa5993a7a83f9a9313ef3ab6ce9cce8073317b6"
+git-tree-sha1 = "f22cc30a7591c2441ff1068cfe254aa0f3b8d3f6"
 libc = "glibc"
 os = "linux"
 
     [[OpenEXR.download]]
-    sha256 = "0b77c9f7e1cc3297d0bfe9db58a0737006f3b0d7e3317ae97ca559a732f6c2cf"
-    url = "https://github.com/JuliaBinaryWrappers/OpenEXR_jll.jl/releases/download/OpenEXR-v3.4.16+0/OpenEXR.v3.4.16.armv7l-linux-gnueabihf-cxx11.tar.gz"
+    sha256 = "007799059cf03aea24eda566799397b4eb7ae2a0358f9f8b43d1afe89d3106f0"
+    url = "https://github.com/JuliaBinaryWrappers/OpenEXR_jll.jl/releases/download/OpenEXR-v3.5.2+0/OpenEXR.v3.5.2.armv7l-linux-gnueabihf-cxx11.tar.gz"
 [[OpenEXR]]
 arch = "armv7l"
 call_abi = "eabihf"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "342430ea7e13d09b3003ab039fde1a3f426cf0ae"
+git-tree-sha1 = "199c4a9560ca6dc62b8fc434f899ee63c359e0fa"
 libc = "musl"
 os = "linux"
 
     [[OpenEXR.download]]
-    sha256 = "fb632a057b653e432e51aef1c7293a8425454ae52e62b7a82643d81e5c762e83"
-    url = "https://github.com/JuliaBinaryWrappers/OpenEXR_jll.jl/releases/download/OpenEXR-v3.4.16+0/OpenEXR.v3.4.16.armv7l-linux-musleabihf-cxx11.tar.gz"
+    sha256 = "c0c72d2008e018c70a73b900b5f186cf3a11ffebb0c2bf25d311f8e8d57d31a0"
+    url = "https://github.com/JuliaBinaryWrappers/OpenEXR_jll.jl/releases/download/OpenEXR-v3.5.2+0/OpenEXR.v3.5.2.armv7l-linux-musleabihf-cxx11.tar.gz"
 [[OpenEXR]]
 arch = "i686"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "1c4b126494b7853a3860ead1f8cd9c6b33296b2d"
+git-tree-sha1 = "728336078036f31aa585d76cca744d92cb4cbfec"
 libc = "glibc"
 os = "linux"
 
     [[OpenEXR.download]]
-    sha256 = "eadb810f75f55d8ebe8710a3ce485c4c2cea6eda79ee33a938b874ddfa24aa74"
-    url = "https://github.com/JuliaBinaryWrappers/OpenEXR_jll.jl/releases/download/OpenEXR-v3.4.16+0/OpenEXR.v3.4.16.i686-linux-gnu-cxx11.tar.gz"
+    sha256 = "52fb763bb08a81cbd248a3f75f59d7964496682ef2a330a881326f5c127efc97"
+    url = "https://github.com/JuliaBinaryWrappers/OpenEXR_jll.jl/releases/download/OpenEXR-v3.5.2+0/OpenEXR.v3.5.2.i686-linux-gnu-cxx11.tar.gz"
 [[OpenEXR]]
 arch = "i686"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "888b668cd26bb4016c31afe3b4b14d1dd2e3c3bf"
+git-tree-sha1 = "9e9e328d4b485cd91b22400e45b1f8e05357bb55"
 libc = "musl"
 os = "linux"
 
     [[OpenEXR.download]]
-    sha256 = "54d926e3872e5315b4f7ef2a9df4b7b42fe06c1612fda3d7728c7dab570a8109"
-    url = "https://github.com/JuliaBinaryWrappers/OpenEXR_jll.jl/releases/download/OpenEXR-v3.4.16+0/OpenEXR.v3.4.16.i686-linux-musl-cxx11.tar.gz"
+    sha256 = "1e39bf3e1696fbf3757fa1a3a8315112a45217771a1ed98032725b08e5221ce2"
+    url = "https://github.com/JuliaBinaryWrappers/OpenEXR_jll.jl/releases/download/OpenEXR-v3.5.2+0/OpenEXR.v3.5.2.i686-linux-musl-cxx11.tar.gz"
 [[OpenEXR]]
 arch = "i686"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "b88f14a1cc4f4017dd05aecf6977d5f83177d295"
+git-tree-sha1 = "bd96897e21e8e8c1e25fb86a575fc334acc3e0ea"
 os = "windows"
 
     [[OpenEXR.download]]
-    sha256 = "7eb8b2456ab68405dfca628e86508196b5b9176f9200c0cfde2b0688c8eb2e92"
-    url = "https://github.com/JuliaBinaryWrappers/OpenEXR_jll.jl/releases/download/OpenEXR-v3.4.16+0/OpenEXR.v3.4.16.i686-w64-mingw32-cxx11.tar.gz"
+    sha256 = "667f1eb1812a3bce21d66e6f296c2bbf93755699daaabb6c9592377bae2b2398"
+    url = "https://github.com/JuliaBinaryWrappers/OpenEXR_jll.jl/releases/download/OpenEXR-v3.5.2+0/OpenEXR.v3.5.2.i686-w64-mingw32-cxx11.tar.gz"
 [[OpenEXR]]
 arch = "powerpc64le"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "2659233ff834b5c6047db35769053ccb2a10b9d9"
+git-tree-sha1 = "83479567bbe300dc0d72a75117f43c09526dd123"
 libc = "glibc"
 os = "linux"
 
     [[OpenEXR.download]]
-    sha256 = "1ea6efe3cab737375d5f2bbb15ab95fb4c533630e506b999eab2be9fa642edd0"
-    url = "https://github.com/JuliaBinaryWrappers/OpenEXR_jll.jl/releases/download/OpenEXR-v3.4.16+0/OpenEXR.v3.4.16.powerpc64le-linux-gnu-cxx11.tar.gz"
+    sha256 = "69cc466b38d0b88079f5959079bec466f314937ded35f8bdf62c448a96788a23"
+    url = "https://github.com/JuliaBinaryWrappers/OpenEXR_jll.jl/releases/download/OpenEXR-v3.5.2+0/OpenEXR.v3.5.2.powerpc64le-linux-gnu-cxx11.tar.gz"
 [[OpenEXR]]
 arch = "riscv64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "4bfaea865b79e076ac08d79033d9a0b5d596f75f"
+git-tree-sha1 = "64c2fbc409532449d130746272a1214c678e23c8"
 libc = "glibc"
 os = "linux"
 
     [[OpenEXR.download]]
-    sha256 = "c960e39fb9ccabdee23de63447448c48690e34be470c83fc22420413d1dee999"
-    url = "https://github.com/JuliaBinaryWrappers/OpenEXR_jll.jl/releases/download/OpenEXR-v3.4.16+0/OpenEXR.v3.4.16.riscv64-linux-gnu-cxx11.tar.gz"
+    sha256 = "734e1ec8d9ead6be8af57d84325df95cbf39feb888282c4427cbac1c2ef598af"
+    url = "https://github.com/JuliaBinaryWrappers/OpenEXR_jll.jl/releases/download/OpenEXR-v3.5.2+0/OpenEXR.v3.5.2.riscv64-linux-gnu-cxx11.tar.gz"
 [[OpenEXR]]
 arch = "x86_64"
-git-tree-sha1 = "a25f7716a554103a1b705b8f2fd0b35e68aad298"
+git-tree-sha1 = "140aadbdbb6028d7fe552aacf900397c060b2613"
 os = "macos"
 
     [[OpenEXR.download]]
-    sha256 = "7500f87746dd0a99b4d5a35117fb4c5be44c876935d4a1e172adcc648ba05316"
-    url = "https://github.com/JuliaBinaryWrappers/OpenEXR_jll.jl/releases/download/OpenEXR-v3.4.16+0/OpenEXR.v3.4.16.x86_64-apple-darwin.tar.gz"
+    sha256 = "9f9ffdb8723e9e934a46baa089014f45a597b1ae3d313cf6bfca71583e49aba9"
+    url = "https://github.com/JuliaBinaryWrappers/OpenEXR_jll.jl/releases/download/OpenEXR-v3.5.2+0/OpenEXR.v3.5.2.x86_64-apple-darwin.tar.gz"
 [[OpenEXR]]
 arch = "x86_64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "42147ede8651e0c62e4fba71114ac9de6e9996f8"
+git-tree-sha1 = "deffef8b26f7dc276b899e355549163905a40cf4"
 libc = "glibc"
 os = "linux"
 
     [[OpenEXR.download]]
-    sha256 = "c01e65b942d5d3a2c37be00240f4a6e63efb81b967ced45cbc168cadf07250b3"
-    url = "https://github.com/JuliaBinaryWrappers/OpenEXR_jll.jl/releases/download/OpenEXR-v3.4.16+0/OpenEXR.v3.4.16.x86_64-linux-gnu-cxx11.tar.gz"
+    sha256 = "0537d5ba2188a835869283811e3b2897f9ec2a8d4dbc229f837df3f9f3472539"
+    url = "https://github.com/JuliaBinaryWrappers/OpenEXR_jll.jl/releases/download/OpenEXR-v3.5.2+0/OpenEXR.v3.5.2.x86_64-linux-gnu-cxx11.tar.gz"
 [[OpenEXR]]
 arch = "x86_64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "277018f91ab4c8bf8eeb0f3e9f22cf35410a6898"
+git-tree-sha1 = "5848c4509b33ab64971ed69b26f741a108a720c4"
 libc = "musl"
 os = "linux"
 
     [[OpenEXR.download]]
-    sha256 = "f72a1ee1e69c0eb75e559fb96c424669331223a13b80c987b78da3e47da2ddd6"
-    url = "https://github.com/JuliaBinaryWrappers/OpenEXR_jll.jl/releases/download/OpenEXR-v3.4.16+0/OpenEXR.v3.4.16.x86_64-linux-musl-cxx11.tar.gz"
+    sha256 = "fb4b7875e095bdf9aff03756b242bb446785fb98cfbdefb0332a535e860938e1"
+    url = "https://github.com/JuliaBinaryWrappers/OpenEXR_jll.jl/releases/download/OpenEXR-v3.5.2+0/OpenEXR.v3.5.2.x86_64-linux-musl-cxx11.tar.gz"
 [[OpenEXR]]
 arch = "x86_64"
-git-tree-sha1 = "a9344f587ac16e89ed766f8385ab34392c104e1a"
+git-tree-sha1 = "63a69b408d895484ca176ce4987c5c4d1e1c823e"
 os = "freebsd"
 
     [[OpenEXR.download]]
-    sha256 = "33a25972fe3f47fff5e17686c776ef9ecec4259440e9ad3164e1fa84e9998600"
-    url = "https://github.com/JuliaBinaryWrappers/OpenEXR_jll.jl/releases/download/OpenEXR-v3.4.16+0/OpenEXR.v3.4.16.x86_64-unknown-freebsd.tar.gz"
+    sha256 = "efd8a5b3e0399a031f301c7c97b31bc5a868a99ff28cd5b211d0efbe2d0c7032"
+    url = "https://github.com/JuliaBinaryWrappers/OpenEXR_jll.jl/releases/download/OpenEXR-v3.5.2+0/OpenEXR.v3.5.2.x86_64-unknown-freebsd.tar.gz"
 [[OpenEXR]]
 arch = "x86_64"
 cxxstring_abi = "cxx11"
-git-tree-sha1 = "87b07f6f29ea82ecff8dd140c0fab47a2265521f"
+git-tree-sha1 = "98f8b47230757e3880a5687d895292749de9116b"
 os = "windows"
 
     [[OpenEXR.download]]
-    sha256 = "ec287e016f7afea10cde3258a7f4cc9b7364e169f8c925afbdd9098b594a4950"
-    url = "https://github.com/JuliaBinaryWrappers/OpenEXR_jll.jl/releases/download/OpenEXR-v3.4.16+0/OpenEXR.v3.4.16.x86_64-w64-mingw32-cxx11.tar.gz"
+    sha256 = "87ca5e8ee3dac8e00685b8b1488fcc79130b4e66020ed038e2b8c7d425a7702e"
+    url = "https://github.com/JuliaBinaryWrappers/OpenEXR_jll.jl/releases/download/OpenEXR-v3.5.2+0/OpenEXR.v3.5.2.x86_64-w64-mingw32-cxx11.tar.gz"

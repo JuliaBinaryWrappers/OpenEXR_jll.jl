@@ -2,42 +2,45 @@
 export libIex, libIlmThread, libOpenEXR, libOpenEXRCore, libOpenEXRUtil
 
 using Imath_jll
+using libdeflate_jll
+using OpenJPH_jll
 using Zlib_jll
+using Zstd_jll
 JLLWrappers.@generate_wrapper_header("OpenEXR")
-JLLWrappers.@declare_library_product(libIex, "@rpath/libIex-3_4.33.dylib")
-JLLWrappers.@declare_library_product(libIlmThread, "@rpath/libIlmThread-3_4.33.dylib")
-JLLWrappers.@declare_library_product(libOpenEXR, "@rpath/libOpenEXR-3_4.33.dylib")
-JLLWrappers.@declare_library_product(libOpenEXRCore, "@rpath/libOpenEXRCore-3_4.33.dylib")
-JLLWrappers.@declare_library_product(libOpenEXRUtil, "@rpath/libOpenEXRUtil-3_4.33.dylib")
+JLLWrappers.@declare_library_product(libIex, "@rpath/libIex-3_5.34.dylib")
+JLLWrappers.@declare_library_product(libIlmThread, "@rpath/libIlmThread-3_5.34.dylib")
+JLLWrappers.@declare_library_product(libOpenEXR, "@rpath/libOpenEXR-3_5.34.dylib")
+JLLWrappers.@declare_library_product(libOpenEXRCore, "@rpath/libOpenEXRCore-3_5.34.dylib")
+JLLWrappers.@declare_library_product(libOpenEXRUtil, "@rpath/libOpenEXRUtil-3_5.34.dylib")
 function __init__()
-    JLLWrappers.@generate_init_header(Imath_jll, Zlib_jll)
+    JLLWrappers.@generate_init_header(Imath_jll, libdeflate_jll, OpenJPH_jll, Zlib_jll, Zstd_jll)
     JLLWrappers.@init_library_product(
         libIex,
-        "lib/libIex-3_4.33.dylib",
+        "lib/libIex-3_5.34.dylib",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
     JLLWrappers.@init_library_product(
         libIlmThread,
-        "lib/libIlmThread-3_4.33.dylib",
+        "lib/libIlmThread-3_5.34.dylib",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
     JLLWrappers.@init_library_product(
         libOpenEXR,
-        "lib/libOpenEXR-3_4.33.dylib",
+        "lib/libOpenEXR-3_5.34.dylib",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
     JLLWrappers.@init_library_product(
         libOpenEXRCore,
-        "lib/libOpenEXRCore-3_4.33.dylib",
+        "lib/libOpenEXRCore-3_5.34.dylib",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
     JLLWrappers.@init_library_product(
         libOpenEXRUtil,
-        "lib/libOpenEXRUtil-3_4.33.dylib",
+        "lib/libOpenEXRUtil-3_5.34.dylib",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
