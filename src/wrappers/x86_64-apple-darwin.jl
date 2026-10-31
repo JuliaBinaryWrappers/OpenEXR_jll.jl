@@ -7,28 +7,16 @@ using OpenJPH_jll
 using Zlib_jll
 using Zstd_jll
 JLLWrappers.@generate_wrapper_header("OpenEXR")
-JLLWrappers.@declare_library_product(libIex, "@rpath/libIex-3_5.34.dylib")
-JLLWrappers.@declare_library_product(libIlmThread, "@rpath/libIlmThread-3_5.34.dylib")
-JLLWrappers.@declare_library_product(libOpenEXR, "@rpath/libOpenEXR-3_5.34.dylib")
-JLLWrappers.@declare_library_product(libOpenEXRCore, "@rpath/libOpenEXRCore-3_5.34.dylib")
 JLLWrappers.@declare_library_product(libOpenEXRUtil, "@rpath/libOpenEXRUtil-3_5.34.dylib")
+JLLWrappers.@declare_library_product(libOpenEXRCore, "@rpath/libOpenEXRCore-3_5.34.dylib")
+JLLWrappers.@declare_library_product(libOpenEXR, "@rpath/libOpenEXR-3_5.34.dylib")
+JLLWrappers.@declare_library_product(libIlmThread, "@rpath/libIlmThread-3_5.34.dylib")
+JLLWrappers.@declare_library_product(libIex, "@rpath/libIex-3_5.34.dylib")
 function __init__()
     JLLWrappers.@generate_init_header(Imath_jll, libdeflate_jll, OpenJPH_jll, Zlib_jll, Zstd_jll)
     JLLWrappers.@init_library_product(
-        libIex,
-        "lib/libIex-3_5.34.dylib",
-        RTLD_LAZY | RTLD_DEEPBIND,
-    )
-
-    JLLWrappers.@init_library_product(
-        libIlmThread,
-        "lib/libIlmThread-3_5.34.dylib",
-        RTLD_LAZY | RTLD_DEEPBIND,
-    )
-
-    JLLWrappers.@init_library_product(
-        libOpenEXR,
-        "lib/libOpenEXR-3_5.34.dylib",
+        libOpenEXRUtil,
+        "lib/libOpenEXRUtil-3_5.34.dylib",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
@@ -39,8 +27,20 @@ function __init__()
     )
 
     JLLWrappers.@init_library_product(
-        libOpenEXRUtil,
-        "lib/libOpenEXRUtil-3_5.34.dylib",
+        libOpenEXR,
+        "lib/libOpenEXR-3_5.34.dylib",
+        RTLD_LAZY | RTLD_DEEPBIND,
+    )
+
+    JLLWrappers.@init_library_product(
+        libIlmThread,
+        "lib/libIlmThread-3_5.34.dylib",
+        RTLD_LAZY | RTLD_DEEPBIND,
+    )
+
+    JLLWrappers.@init_library_product(
+        libIex,
+        "lib/libIex-3_5.34.dylib",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 

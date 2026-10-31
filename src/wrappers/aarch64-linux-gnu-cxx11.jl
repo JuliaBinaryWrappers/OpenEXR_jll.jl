@@ -7,28 +7,16 @@ using OpenJPH_jll
 using Zlib_jll
 using Zstd_jll
 JLLWrappers.@generate_wrapper_header("OpenEXR")
-JLLWrappers.@declare_library_product(libIex, "libIex-3_5.so.34")
-JLLWrappers.@declare_library_product(libIlmThread, "libIlmThread-3_5.so.34")
-JLLWrappers.@declare_library_product(libOpenEXR, "libOpenEXR-3_5.so.34")
-JLLWrappers.@declare_library_product(libOpenEXRCore, "libOpenEXRCore-3_5.so.34")
 JLLWrappers.@declare_library_product(libOpenEXRUtil, "libOpenEXRUtil-3_5.so.34")
+JLLWrappers.@declare_library_product(libOpenEXRCore, "libOpenEXRCore-3_5.so.34")
+JLLWrappers.@declare_library_product(libOpenEXR, "libOpenEXR-3_5.so.34")
+JLLWrappers.@declare_library_product(libIlmThread, "libIlmThread-3_5.so.34")
+JLLWrappers.@declare_library_product(libIex, "libIex-3_5.so.34")
 function __init__()
     JLLWrappers.@generate_init_header(Imath_jll, libdeflate_jll, OpenJPH_jll, Zlib_jll, Zstd_jll)
     JLLWrappers.@init_library_product(
-        libIex,
-        "lib/libIex-3_5.so",
-        RTLD_LAZY | RTLD_DEEPBIND,
-    )
-
-    JLLWrappers.@init_library_product(
-        libIlmThread,
-        "lib/libIlmThread-3_5.so",
-        RTLD_LAZY | RTLD_DEEPBIND,
-    )
-
-    JLLWrappers.@init_library_product(
-        libOpenEXR,
-        "lib/libOpenEXR-3_5.so",
+        libOpenEXRUtil,
+        "lib/libOpenEXRUtil-3_5.so",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
@@ -39,8 +27,20 @@ function __init__()
     )
 
     JLLWrappers.@init_library_product(
-        libOpenEXRUtil,
-        "lib/libOpenEXRUtil-3_5.so",
+        libOpenEXR,
+        "lib/libOpenEXR-3_5.so",
+        RTLD_LAZY | RTLD_DEEPBIND,
+    )
+
+    JLLWrappers.@init_library_product(
+        libIlmThread,
+        "lib/libIlmThread-3_5.so",
+        RTLD_LAZY | RTLD_DEEPBIND,
+    )
+
+    JLLWrappers.@init_library_product(
+        libIex,
+        "lib/libIex-3_5.so",
         RTLD_LAZY | RTLD_DEEPBIND,
     )
 
